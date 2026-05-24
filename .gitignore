@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Go
+backend/moat/moatly-moat
+backend/linkage/moatly-linkage
+*.exe
+*.test
+*.out
+
+# Secrets — never commit these
+.env
+.env.*
+*.sops.yaml
+secrets/
+infra/**/*.tfvars
+infra/**/*.tfstate
+infra/**/*.tfstate.backup
+infra/.terraform/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build Brief originals (already in repo as docs)
+# Keep the CODING/ folder but ignore generated zips
+*.zip

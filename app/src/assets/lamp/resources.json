@@ -1,0 +1,136 @@
+{
+  "_note": "Crisis resources bundled in-app. Works offline. Reviewed quarterly. Last reviewed: 2026-04.",
+  "_editorial_standard": "Each entry must: accept contacts from its stated territory, be clearly staffed, be transparent about methodology, not be a lead-generation funnel.",
+  "AU": {
+    "country": "Australia",
+    "resources": [
+      {
+        "name": "Lifeline",
+        "type": "crisis",
+        "phone": "13 11 14",
+        "text": "0477 13 11 14",
+        "chat": "https://www.lifeline.org.au/crisis-chat",
+        "hours": "24/7"
+      },
+      {
+        "name": "Beyond Blue",
+        "type": "mental_health",
+        "phone": "1300 22 4636",
+        "chat": "https://www.beyondblue.org.au/get-support/talk-to-a-counsellor",
+        "hours": "24/7"
+      },
+      {
+        "name": "1800RESPECT",
+        "type": "domestic_abuse",
+        "phone": "1800 737 732",
+        "chat": "https://www.1800respect.org.au",
+        "hours": "24/7"
+      },
+      {
+        "name": "Kids Helpline",
+        "type": "child_safety",
+        "phone": "1800 55 1800",
+        "chat": "https://kidshelpline.com.au",
+        "hours": "24/7",
+        "note": "For people aged 5–25"
+      },
+      {
+        "name": "Emergency Services",
+        "type": "emergency",
+        "phone": "000",
+        "hours": "24/7"
+      }
+    ]
+  },
+  "GB": {
+    "country": "United Kingdom",
+    "resources": [
+      {
+        "name": "Samaritans",
+        "type": "crisis",
+        "phone": "116 123",
+        "email": "jo@samaritans.org",
+        "hours": "24/7"
+      },
+      {
+        "name": "Mind",
+        "type": "mental_health",
+        "phone": "0300 123 3393",
+        "website": "https://www.mind.org.uk",
+        "hours": "Mon–Fri 9am–6pm"
+      },
+      {
+        "name": "National Domestic Abuse Helpline",
+        "type": "domestic_abuse",
+        "phone": "0808 2000 247",
+        "hours": "24/7"
+      },
+      {
+        "name": "NSPCC",
+        "type": "child_safety",
+        "phone": "0808 800 5000",
+        "hours": "24/7"
+      },
+      {
+        "name": "Emergency Services",
+        "type": "emergency",
+        "phone": "999",
+        "hours": "24/7"
+      }
+    ]
+  },
+  "US": {
+    "country": "United States",
+    "resources": [
+      {
+        "name": "988 Suicide & Crisis Lifeline",
+        "type": "crisis",
+        "phone": "988",
+        "chat": "https://988lifeline.org/chat",
+        "hours": "24/7"
+      },
+      {
+        "name": "Crisis Text Line",
+        "type": "crisis",
+        "text": "Text HOME to 741741",
+        "hours": "24/7"
+      },
+      {
+        "name": "National DV Hotline",
+        "type": "domestic_abuse",
+        "phone": "1-800-799-7233",
+        "text": "Text START to 88788",
+        "hours": "24/7"
+      },
+      {
+        "name": "Childhelp National Child Abuse Hotline",
+        "type": "child_safety",
+        "phone": "1-800-422-4453",
+        "hours": "24/7"
+      },
+      {
+        "name": "Emergency Services",
+        "type": "emergency",
+        "phone": "911",
+        "hours": "24/7"
+      }
+    ]
+  },
+  "DEFAULT": {
+    "country": "International",
+    "resources": [
+      {
+        "name": "International Association for Suicide Prevention",
+        "type": "crisis",
+        "website": "https://www.iasp.info/resources/Crisis_Centres",
+        "note": "Directory of crisis centres worldwide"
+      },
+      {
+        "name": "Befrienders Worldwide",
+        "type": "crisis",
+        "website": "https://www.befrienders.org",
+        "note": "Find a helpline in your country"
+      }
+    ]
+  }
+}
